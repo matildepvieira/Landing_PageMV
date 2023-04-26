@@ -1,0 +1,88 @@
+body {
+    background: url(Imagem/Luz.jpg);
+    background-size: 103%;
+    color:#A0522D;
+    text-align:right;
+    margin-right: 80px;
+    padding-top: 100px;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-size: 98px;
+    padding-top: 230px;
+    margin-bottom: 15px;
+    color: #5c4033;
+}
+
+p {
+font-size: 39px;
+font-weight: bold;
+margin: 0;
+opacity:0.8;
+}
+
+span  {
+    color:white;
+    padding-top: 20px;
+}
+
+ul{
+    list-style: none;
+    margin-top: 50px;
+
+}li {
+    display: inline;
+}
+
+ul li a {
+    color:white;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 5px;
+}
+
+ul li a :hover {
+    opacity: 0.7;
+}
+
+.segundo-paragrafo {
+    margin-bottom: 50px;
+    
+}
+
+.botao{
+    text-decoration: none;
+    background-color: #FF7F00;
+    padding: 5px 15px;
+    color:whitesmoke;
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px #6B4226;
+ }
+
+.botao:hover {
+    opacity: 0.7;
+  }
+
+@media (max-width: 640px) {
+        body {
+         background-image: url(Imagem/Luz.jpg);
+         background-image: cover;
+         text-align: center;
+    
+    }
+
+ h1 {
+     font-size: 70px;
+     margin-bottom: 70px;
+     padding-top: 180px;
+    }
+ 
+ p {
+  font-size: 30px;
+  }
+  .segundo-paragrafo {
+  margin-top: 20px;
+  }
+
+}
